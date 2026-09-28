@@ -1,0 +1,63 @@
+name: isg_cours
+description: ISG Cours - Plateforme de partage de cours
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.4
+  cloud_functions: ^5.1.4
+
+  # Fichiers
+  file_picker: ^13.1.0
+  file_selector: ^1.1.0
+  image_picker: ^1.2.3
+
+  # Réseau
+  http: ^1.6.0
+
+  # Téléchargement des fichiers
+  path_provider: ^2.1.5
+  open_filex: ^4.6.0
+
+  # Navigation / images / dates
+  url_launcher: ^6.3.1
+  cached_network_image: ^3.4.1
+  intl: ^0.19.0
+
+  # État / stockage local
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  firebase_messaging: ^15.2.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # Génération de l'icône de l'application (Android + iOS)
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/app_icon.png
+
+# Configuration utilisée par `dart run flutter_launcher_icons`
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"

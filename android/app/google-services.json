@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "261501011230",
+    "project_id": "isg-partage-cours",
+    "storage_bucket": "isg-partage-cours.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261501011230:android:8f07361bed850feebab50f",
+        "android_client_info": {
+          "package_name": "com.example.isg_partage_cours"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFSeCQ3Aw9zHKz3FmwlPlUoAwGV_OjIlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
